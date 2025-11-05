@@ -1,1 +1,266 @@
-/* Add styles here */
+/*INICIO*/
+#iniciobody{
+    background-color: #34517B;
+}
+#logo{
+    border-radius: 100%;
+    width: 400px;
+    background-color: #ffffff;
+}
+#iniciobtn{
+    border-radius: 15%;
+    color: #ffffff;
+    background-color: #6D8BB9;
+    width: 150px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#inicioh1{
+    color: #B9D1EA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+#contenedorinicio{
+    display: flex;
+    flex-direction: column; /*los elementos van uno arriba del otro*/
+    justify-content: center;
+    align-items: center;
+    height: 1000px
+}
+
+/*MENU*/
+#barra{
+    background-color: #A2B1C8;
+}
+.contenedorbarra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+  }
+#logomenu img {
+  border-radius: 100%;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+#acciones a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#acciones a:hover{
+  background-color: #808fa7;
+}
+
+/*en general*/
+body {
+  background-color: #B6C6DE;
+}
+input{
+  background-color: #4E6D9A;
+  color: white;
+  width: 100%;
+  height: 50px;
+}
+p{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+.contenido p{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+.contenido{
+  align-items: flex-start; /* alinea el texto a la izquierda */
+  background-color: #CED7E9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contenido li{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #2E5084;
+}
+
+/*INGRESAR*/
+#h1ingresar{
+  color: #2E5084;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  margin: 30px
+}
+.contenedoringr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px
+}
+#ingresarbtn{
+  background-color: #6D8BB9;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  width: 300px;
+  height: 50px;
+  margin: 30px
+}
+
+/*PERFIL*/
+#h1perfil{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+  color: #2E5084;
+  margin: 30px
+}
+
+#contenedorperfil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnperfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px
+}
+/*NOSOTRAS*/
+.persona {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.persona img{
+  margin: 30px;
+  border-radius: 50px;
+  width: 300px;
+}
+
+.persona h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #2E5084
+}
+.btn{
+  border-radius: 15%;
+  color: #ffffff;
+  background-color: #6D8BB9;
+  width: 150px;
+  height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+#btnesNosotras{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CONSEJOS*/
+.contenedorconsejos{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 20px
+}
+
+.btnesconsejos{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse; /*alinea a la derecha*/
+  margin: 50px;
+}
+
+#contenidovideo{
+  align-items: center;
+  background-color: #CED7E9;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*FAQ*/
+.btnpreg{
+  border-radius: 15%;
+  color: #ffffff;
+  background-color: #6D8BB9;
+  width: 80%;
+  height: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+#btnespreg{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*TAREAS Y EXAMENES*/
+.contenidotareaexamen{
+  align-items: center; 
+  background-color: #CED7E9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenidotareaexamen p{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+
+.contenidoagregar{
+  align-items: center; 
+  background-color: #CED7E9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
